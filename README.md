@@ -23,9 +23,12 @@ To resolve this issue:
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
+    - Python 3.8 and up
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
 3. [Course-specific instructions]
+    - Create a virtual environment: `python -m venv venv`
+    - Install dependencies: `./venv/bin/python -m pip install -r requirements.txt`
+    - Have your IDE use Python from the virtual environment (in VSCode: `Python: Select Interpreter`)
 
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
