@@ -1,25 +1,11 @@
 # Data Science Foundations: Python Scientific Stack
-This is the repository for the LinkedIn Learning course `Data Science Foundations: Python Scientific Stack`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Data Science Foundations: Python Scientific Stack. The full course is available from [LinkedIn Learning][lil-course-url].
 
+![Data Science Foundations: Python Scientific Stack][lil-thumbnail-url] 
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+Data science provides organizations with striking—and extremely valuable—insights into human behavior. While data mining can seem a bit daunting, you don't need to be a highly skilled programmer to process your own data. In this new hands-on course, instructor Miki Tebeka shows you how to use the Python scientific stack to complete common data science tasks.
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
-
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
-
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+Learn about the basic tools and core concepts to effectively process data with the Python scientific stack, including how to work with Visual Studio Code for documentation, NumPy for numeric computation, Pandas for data crunching, scikit-learn for data modeling, madplotlib for data visualization, and more. Upon completing this course, you’ll have the skills you need to load and analyze data, run models, solve complex problems, and display results for your team.
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
@@ -30,9 +16,16 @@ To resolve this issue:
     - Install dependencies: `./venv/bin/python -m pip install -r requirements.txt`
     - Have your IDE use Python from the virtual environment (in VSCode: `Python: Select Interpreter`)
 
+### Instructor
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+Miki Tebeka 
+                           
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/miki-tebeka).
+
+[lil-course-url]: https://www.linkedin.com/learning/data-science-foundations-python-scientific-stack-14633070
+[lil-thumbnail-url]: https://cdn.lynda.com/course/3006561/3006561-1645210052575-16x9.jpg
+
 
